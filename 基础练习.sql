@@ -37,3 +37,5 @@ SELECT ename,sal,hiredate FROM emp ORDER BY sal desc,hiredate;
 
 -- 10、显示员工加入公司的天数
 SELECT datediff(NOW(),hiredate) FROM emp ; 
+
+
